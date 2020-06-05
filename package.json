@@ -20,7 +20,7 @@
    },
    "scripts": {
       "dev": "nodemon src/index.ts",
-      "start": "ts-node build/index.js",
+      "start": "node build/index.js",
       "build": "tsc -p ."
    }
 }
