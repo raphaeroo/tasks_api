@@ -5,7 +5,7 @@ var TasksController_1 = require("./controller/TasksController");
 exports.routes = express_1.Router();
 exports.routes.get('/', function (req, res) {
     return res.json({
-        message: 'Tasks API - Test'
+        message: 'Tasks API - Server'
     });
 });
 exports.routes.get('/tasks', TasksController_1.getTasks);

@@ -11,5 +11,5 @@ typeorm_1.createConnection();
 app.use(cors());
 app.use(bodyParser.json());
 app.use(routes_1.routes);
-app.listen(3333);
+app.listen(process.env.PORT || 3333);
 //# sourceMappingURL=index.js.map
